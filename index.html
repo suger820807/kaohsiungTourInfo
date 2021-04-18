@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>高雄旅遊資訊</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="loading">資料載入中</div>
+    <div class="wrap">
+        <div class="header">
+            <h1><a href="#">高雄旅遊資訊</a></h1>
+            <select class="countySelect" name="county" id="conuty" >
+                <option value="" disabled selected hidden>- - 請選擇行政區 - -</option>
+                
+            </select>
+        </div>
+        <div class="popularMenu">
+            <h2>熱門行政區</h2>
+            <ul class="hotList"></ul>
+        </div>
+        <div class="content">
+            <div class="dot">
+                <div class="icon_down"></div>
+            </div>
+            <h2 class="countyTitle"></h2>
+            <ul class="list clearfix"></ul>
+            <a href="#" class="topBtn"></a>
+            <div class="pageList"></div>
+
+        </div>
+        <div class="footer">
+            <h2>高雄旅遊網</h2>
+            <h5>資料來源：高雄市政府</h5>
+        </div>
+    </div>
+
+    <script src="./js/all.js"></script>
+</body>
+
+</html>
